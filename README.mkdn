@@ -1,0 +1,9 @@
+## Drupal 7 make profile ##
+### All my favorite modules to use for developing websites. ###
+
+**Example Install Profile Command**
+`drush make --contrib-destination=profiles/kamke drushmake/Drupal-7-Make-Profile/kamke.make kamke_test`
+
+**Example Site-Install**
+Installs profile kamke using settings.php in directory sites/kamkedev.local
+`drush si kamke --account-pass=******** --sites-subdir=kamkedev.local`
